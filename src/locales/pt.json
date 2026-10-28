@@ -1,0 +1,95 @@
+{
+  "header": {
+    "role": "Software Developer",
+    "navAria": "Navegação principal",
+    "nav": {
+      "about": "Sobre",
+      "education": "Formação",
+      "skills": "Habilidades",
+      "projects": "Projetos",
+      "contact": "Contato"
+    },
+    "cta": "Fale comigo",
+    "theme": {
+      "toLight": "Ativar tema claro",
+      "toDark": "Ativar tema escuro"
+    },
+    "menu": {
+      "open": "Abrir menu",
+      "close": "Fechar menu"
+    }
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "role": "Desenvolvedor de software · Full-stack · Cibersegurança",
+    "lead": "Engenheiro de Computação pela FURG e mestrando em Engenharia de Computação. Construo aplicações completas, da interface ao back-end, rápidas, acessíveis e bem cuidadas — e gosto de entender como as coisas funcionam por baixo, inclusive como quebrá-las.",
+    "primary": "Ver projetos",
+    "secondary": "Entrar em contato",
+    "sceneHint": "arraste para girar",
+    "sceneAria": "Cena 3D interativa com um núcleo e as tecnologias que uso orbitando ao redor"
+  },
+  "about": {
+    "eyebrow": "Sobre mim",
+    "title": "Apaixonado por tecnologia e por aprender",
+    "p1": "Sou desenvolvedor de software full-stack: no front-end trabalho com React, React Native e TypeScript, e no back-end com Node.js, PHP, Python e Firebase — criando produtos do layout ao deploy.",
+    "p2": "Tenho um forte interesse em cibersegurança e estou sempre em busca de novos desafios e oportunidades para aprender e crescer — seja na indústria ou na pesquisa acadêmica.",
+    "facts": {
+      "role": { "label": "Atualmente", "value": "Desenvolvedor de software" },
+      "focus": { "label": "Foco", "value": "Desenvolvedor full-stack" },
+      "study": { "label": "Estudando", "value": "Mestrado na FURG" }
+    }
+  },
+  "education": {
+    "eyebrow": "Formação",
+    "title": "Trajetória acadêmica",
+    "current": "Em andamento",
+    "done": "Concluído",
+    "items": {
+      "masters": {
+        "degree": "Mestrado em Engenharia de Computação",
+        "school": "FURG — Universidade Federal do Rio Grande"
+      },
+      "bachelor": {
+        "degree": "Engenharia de Computação",
+        "school": "FURG — Universidade Federal do Rio Grande"
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Habilidades",
+    "title": "Ferramentas do dia a dia",
+    "groups": {
+      "frontend": "Front-end & mobile",
+      "styling": "Estilo & animação",
+      "backend": "Back-end & infra",
+      "security": "Segurança & dados"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projetos",
+    "title": "Coisas que construí",
+    "featured": "Destaque",
+    "view": "Ver no GitHub",
+    "live": "Veja online",
+    "items": {
+      "lovelyMoments": "Site da Lovely Moments, empresa de experiências fotográficas para eventos: página única com galeria, montador de moldura interativo, orçamento via WhatsApp, tema claro/escuro, PT/EN e painel administrativo com Firebase.",
+      "performance": "Avaliação de desempenho em diferentes PCs, com análise dos resultados em Jupyter Notebook.",
+      "reactLib": "Experimentos e componentes reutilizáveis em React.",
+      "blanke3d": "Site da Blanke Criações 3D, estúdio de impressão 3D personalizada: vitrine de produtos, ocasiões, materiais, galeria e orçamento direto pelo WhatsApp, com tema claro/escuro e PT/EN.",
+      "upgrade": "Trabalho da disciplina de desenvolvimento de software.",
+      "lides": "Página de links do lides."
+    },
+    "more": "Ver todos no GitHub"
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Vamos conversar?",
+    "lead": "Aberto a novos desafios, projetos e trocas sobre desenvolvimento full-stack ou segurança. Me chame por qualquer um destes canais.",
+    "copy": "Copiar e-mail",
+    "copied": "Copiado!"
+  },
+  "footer": {
+    "madeWith": "Feito com React, Vite e three.js",
+    "linksAria": "Redes"
+  }
+}

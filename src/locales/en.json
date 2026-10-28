@@ -1,0 +1,95 @@
+{
+  "header": {
+    "role": "Software Developer",
+    "navAria": "Main navigation",
+    "nav": {
+      "about": "About",
+      "education": "Education",
+      "skills": "Skills",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "cta": "Get in touch",
+    "theme": {
+      "toLight": "Switch to light theme",
+      "toDark": "Switch to dark theme"
+    },
+    "menu": {
+      "open": "Open menu",
+      "close": "Close menu"
+    }
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Software developer · Full-stack · Cybersecurity",
+    "lead": "Computer Engineer from FURG and Computer Engineering master's student. I build complete applications, from interface to back-end — fast, accessible and carefully crafted — and I like understanding how things work underneath, including how to break them.",
+    "primary": "See projects",
+    "secondary": "Get in touch",
+    "sceneHint": "drag to rotate",
+    "sceneAria": "Interactive 3D scene with a core and the technologies I use orbiting around it"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Passionate about technology and learning",
+    "p1": "I'm a full-stack software developer: on the front-end I work with React, React Native and TypeScript, and on the back-end with Node.js, PHP, Python and Firebase — shipping products from layout to deploy.",
+    "p2": "I have a strong interest in cybersecurity and I'm always looking for new challenges and opportunities to learn and grow — in industry or in academic research.",
+    "facts": {
+      "role": { "label": "Currently", "value": "Software developer" },
+      "focus": { "label": "Focus", "value": "Full-stack developer" },
+      "study": { "label": "Studying", "value": "Master's at FURG" }
+    }
+  },
+  "education": {
+    "eyebrow": "Education",
+    "title": "Academic path",
+    "current": "In progress",
+    "done": "Completed",
+    "items": {
+      "masters": {
+        "degree": "Master's in Computer Engineering",
+        "school": "FURG — Federal University of Rio Grande"
+      },
+      "bachelor": {
+        "degree": "Computer Engineering",
+        "school": "FURG — Federal University of Rio Grande"
+      }
+    }
+  },
+  "skills": {
+    "eyebrow": "Skills",
+    "title": "Everyday tools",
+    "groups": {
+      "frontend": "Front-end & mobile",
+      "styling": "Styling & animation",
+      "backend": "Back-end & infra",
+      "security": "Security & data"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Things I've built",
+    "featured": "Featured",
+    "view": "View on GitHub",
+    "live": "See it live",
+    "items": {
+      "lovelyMoments": "Website for Lovely Moments, a photo-experience company for events: single page with gallery, interactive frame builder, WhatsApp quotes, light/dark theme, PT/EN and a Firebase admin panel.",
+      "performance": "Performance evaluation across different PCs, with the analysis in a Jupyter Notebook.",
+      "reactLib": "Experiments and reusable React components.",
+      "blanke3d": "Website for Blanke Criações 3D, a custom 3D printing studio: product showcase, occasions, materials, gallery and quotes straight to WhatsApp, with light/dark theme and PT/EN.",
+      "upgrade": "Coursework for a software development class.",
+      "lides": "Links page for lides."
+    },
+    "more": "See everything on GitHub"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk?",
+    "lead": "Open to new challenges, projects and conversations about full-stack development or security. Reach me on any of these channels.",
+    "copy": "Copy email",
+    "copied": "Copied!"
+  },
+  "footer": {
+    "madeWith": "Built with React, Vite and three.js",
+    "linksAria": "Social links"
+  }
+}
