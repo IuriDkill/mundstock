@@ -14,7 +14,7 @@
 ### Features
 
 - [x] Cena 3D com React Three Fiber (carregada sob demanda, respeita `prefers-reduced-motion`)
-- [x] Tema escuro (padrão, night-green) e claro, idiomas PT/EN
+- [x] Tema escuro (padrão, azul) e claro, idiomas PT/EN
 - [x] Projetos com link "Veja online" e repositório
 
 ## Preparando Ambiente de Desenvolvimento

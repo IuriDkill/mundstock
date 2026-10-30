@@ -9,7 +9,7 @@ export const CONTACT = {
 export const SKILL_GROUPS = [
   { key: 'frontend', items: ['React', 'React Native', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3'] },
   { key: 'styling', items: ['Tailwind CSS', 'Styled Components', 'Bootstrap', 'CSS Modules', 'Framer Motion'] },
-  { key: 'backend', items: ['Node.js', 'PHP', 'Python', 'Firebase', 'AWS'] },
+  { key: 'backend', items: ['Node.js', 'PHP', 'Laravel', 'Python', 'Firebase', 'AWS'] },
   { key: 'security', items: ['Cybersecurity', 'Firestore Rules', 'Performance', 'Jupyter'] },
 ] as const;
 
@@ -68,6 +68,6 @@ export const PROJECTS: readonly Project[] = [
 ];
 
 export const EDUCATION = [
-  { key: 'masters', current: true },
+  { key: 'masters', current: false },
   { key: 'bachelor', current: false },
 ] as const;

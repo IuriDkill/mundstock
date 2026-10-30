@@ -28,7 +28,7 @@ body {
   margin: 0 auto;
 }
 
-/* Light theme. Dark (night-green, like the GitHub 3D contribution chart) is the default, see index.html. */
+/* Light theme. Dark (deep blue) is the default, see index.html. */
 :root {
   line-height: 1.5;
   font-weight: 400;
@@ -43,31 +43,31 @@ body {
   --font-mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
 
   /* Channel tokens: components compose them as rgb(var(--x-rgb) / alpha). */
-  --text-rgb: 14 30 24;
-  --overlay-rgb: 14 30 24;
-  --surface-rgb: 255 255 252;
-  --shadow-rgb: 20 50 38;
+  --text-rgb: 14 24 42;
+  --overlay-rgb: 14 24 42;
+  --surface-rgb: 255 255 255;
+  --shadow-rgb: 20 38 70;
   --shadow-strength: 0.5;
-  --accent-rgb: 14 140 92;
+  --accent-rgb: 29 94 216;
   --violet-rgb: 98 84 214;
 
-  --bg: #f3f6f2;
+  --bg: #f2f5fa;
   --bg-elevated: #ffffff;
   --surface: rgb(var(--surface-rgb) / 0.8);
   --border: rgb(var(--overlay-rgb) / 0.1);
   --text: rgb(var(--text-rgb));
   --muted: rgb(var(--text-rgb) / 0.7);
-  --accent: #0e8c5c;
-  --accent-strong: #08643f;
-  --accent-ink: #087a4e;
+  --accent: #1d5ed8;
+  --accent-strong: #15459f;
+  --accent-ink: #1a56c4;
   --on-accent: #ffffff;
-  --accent-gradient: linear-gradient(90deg, #087a4e, #0e9c88 50%, #6254d6);
+  --accent-gradient: linear-gradient(90deg, #1a56c4, #1a8fd0 50%, #6254d6);
 
   /* Colors read by the three.js scene (see useSceneColors). */
-  --scene-core: #0e8c5c;
-  --scene-wire: #0b6b47;
+  --scene-core: #1d5ed8;
+  --scene-wire: #174fb8;
   --scene-node: #6254d6;
-  --scene-particle: #0e8c5c;
+  --scene-particle: #1d5ed8;
 
   --r-lg: 1.75rem;
   --r-md: 1.25rem;
@@ -80,26 +80,26 @@ body {
 :root[data-theme='dark'] {
   color-scheme: dark;
 
-  --text-rgb: 226 240 232;
-  --overlay-rgb: 226 240 232;
-  --surface-rgb: 16 26 22;
+  --text-rgb: 226 234 245;
+  --overlay-rgb: 226 234 245;
+  --surface-rgb: 15 22 34;
   --shadow-rgb: 0 0 0;
   --shadow-strength: 1;
-  --accent-rgb: 61 220 151;
+  --accent-rgb: 77 159 255;
   --violet-rgb: 139 124 255;
 
-  --bg: #0a0f0d;
-  --bg-elevated: #111a16;
-  --accent: #2fc485;
-  --accent-strong: #138a58;
-  --accent-ink: #5ee6aa;
-  --on-accent: #04110b;
-  --accent-gradient: linear-gradient(90deg, #5ee6aa, #3fd0c4 50%, #8b7cff);
+  --bg: #0a0e16;
+  --bg-elevated: #111824;
+  --accent: #2a6fe0;
+  --accent-strong: #174fb8;
+  --accent-ink: #7cb8ff;
+  --on-accent: #ffffff;
+  --accent-gradient: linear-gradient(90deg, #7cb8ff, #4fc3f7 50%, #8b7cff);
 
-  --scene-core: #3ddc97;
-  --scene-wire: #5ee6aa;
+  --scene-core: #4d9fff;
+  --scene-wire: #7cb8ff;
   --scene-node: #8b7cff;
-  --scene-particle: #3ddc97;
+  --scene-particle: #4d9fff;
 }
 
 button {

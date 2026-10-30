@@ -22,7 +22,7 @@
   "hero": {
     "greeting": "Hi, I'm",
     "role": "Software developer · Full-stack · Cybersecurity",
-    "lead": "Computer Engineer from FURG and Computer Engineering master's student. I build complete applications, from interface to back-end — fast, accessible and carefully crafted — and I like understanding how things work underneath, including how to break them.",
+    "lead": "Computer Engineer with a Master's in Computer Engineering from FURG. I build complete applications, from interface to back-end — fast, accessible and carefully crafted — and I like understanding how things work underneath, including how to break them.",
     "primary": "See projects",
     "secondary": "Get in touch",
     "sceneHint": "drag to rotate",
@@ -31,12 +31,12 @@
   "about": {
     "eyebrow": "About me",
     "title": "Passionate about technology and learning",
-    "p1": "I'm a full-stack software developer: on the front-end I work with React, React Native and TypeScript, and on the back-end with Node.js, PHP, Python and Firebase — shipping products from layout to deploy.",
+    "p1": "I'm a full-stack software developer: on the front-end I work with React, React Native and TypeScript, and on the back-end with Node.js, PHP, Laravel, Python and Firebase — shipping products from layout to deploy.",
     "p2": "I have a strong interest in cybersecurity and I'm always looking for new challenges and opportunities to learn and grow — in industry or in academic research.",
     "facts": {
       "role": { "label": "Currently", "value": "Software developer" },
       "focus": { "label": "Focus", "value": "Full-stack developer" },
-      "study": { "label": "Studying", "value": "Master's at FURG" }
+      "study": { "label": "Education", "value": "Master's from FURG" }
     }
   },
   "education": {

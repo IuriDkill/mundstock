@@ -22,7 +22,7 @@
   "hero": {
     "greeting": "Olá, eu sou",
     "role": "Desenvolvedor de software · Full-stack · Cibersegurança",
-    "lead": "Engenheiro de Computação pela FURG e mestrando em Engenharia de Computação. Construo aplicações completas, da interface ao back-end, rápidas, acessíveis e bem cuidadas — e gosto de entender como as coisas funcionam por baixo, inclusive como quebrá-las.",
+    "lead": "Engenheiro de Computação e mestre em Engenharia de Computação pela FURG. Construo aplicações completas, da interface ao back-end, rápidas, acessíveis e bem cuidadas — e gosto de entender como as coisas funcionam por baixo, inclusive como quebrá-las.",
     "primary": "Ver projetos",
     "secondary": "Entrar em contato",
     "sceneHint": "arraste para girar",
@@ -31,12 +31,12 @@
   "about": {
     "eyebrow": "Sobre mim",
     "title": "Apaixonado por tecnologia e por aprender",
-    "p1": "Sou desenvolvedor de software full-stack: no front-end trabalho com React, React Native e TypeScript, e no back-end com Node.js, PHP, Python e Firebase — criando produtos do layout ao deploy.",
+    "p1": "Sou desenvolvedor de software full-stack: no front-end trabalho com React, React Native e TypeScript, e no back-end com Node.js, PHP, Laravel, Python e Firebase — criando produtos do layout ao deploy.",
     "p2": "Tenho um forte interesse em cibersegurança e estou sempre em busca de novos desafios e oportunidades para aprender e crescer — seja na indústria ou na pesquisa acadêmica.",
     "facts": {
       "role": { "label": "Atualmente", "value": "Desenvolvedor de software" },
       "focus": { "label": "Foco", "value": "Desenvolvedor full-stack" },
-      "study": { "label": "Estudando", "value": "Mestrado na FURG" }
+      "study": { "label": "Formação", "value": "Mestre pela FURG" }
     }
   },
   "education": {
