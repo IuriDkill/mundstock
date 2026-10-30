@@ -54,6 +54,13 @@ export const PROJECTS: readonly Project[] = [
     featured: true,
   },
   {
+    key: 'investimentos',
+    name: 'Simulador de Investimentos',
+    live: 'https://investimento.mundstock.dev.br/',
+    stack: ['React', 'Vite', 'Cloudflare'],
+    featured: true,
+  },
+  {
     key: 'upgrade',
     name: 'Upgrade',
     repo: 'https://github.com/IuriDkill/Upgrade',

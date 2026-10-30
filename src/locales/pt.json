@@ -76,6 +76,7 @@
       "performance": "Avaliação de desempenho em diferentes PCs, com análise dos resultados em Jupyter Notebook.",
       "reactLib": "Experimentos e componentes reutilizáveis em React.",
       "blanke3d": "Site da Blanke Criações 3D, estúdio de impressão 3D personalizada: vitrine de produtos, ocasiões, materiais, galeria e orçamento direto pelo WhatsApp, com tema claro/escuro e PT/EN.",
+      "investimentos": "Simulador de renda fixa e renda variável que mostra quanto o dinheiro pode render já descontando o imposto, com premissas ajustáveis e a evolução do patrimônio em gráfico e mês a mês.",
       "upgrade": "Trabalho da disciplina de desenvolvimento de software.",
       "lides": "Página de links do lides."
     },
