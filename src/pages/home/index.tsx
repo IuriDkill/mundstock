@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 import { CONTACT, EDUCATION, PROJECTS, SKILL_GROUPS } from './content';
 import { GitHubIcon, LinkedInIcon, MailIcon, ArrowIcon, GlobeIcon } from './icons';
+import { useTheme } from '@/utils/useTheme';
 import styles from './style.module.css';
 
 // three.js only loads after the text is on screen.
@@ -166,6 +167,7 @@ function Skills() {
 
 function Projects() {
   const { t } = useTranslation();
+  const theme = useTheme();
 
   return (
     <section id="projetos" className={styles.section}>
@@ -180,6 +182,20 @@ function Projects() {
             transition={{ ...reveal.transition, delay: index * 0.06 }}
             whileHover={{ y: -6 }}
           >
+            {project.image && (
+              // Decorative duplicate of the "see it live" link, so it stays out of the tab order.
+              <a
+                className={styles.preview}
+                href={project.live ?? project.repo}
+                target="_blank"
+                rel="noreferrer"
+                tabIndex={-1}
+                aria-hidden="true"
+              >
+                <img src={`${project.image}-${theme}.webp`} alt="" width={960} height={600} loading="lazy" decoding="async" />
+              </a>
+            )}
+
             <div className={styles.projectTop}>
               <span className={styles.projectIcon} aria-hidden="true">
                 {project.live ? <GlobeIcon /> : <GitHubIcon />}

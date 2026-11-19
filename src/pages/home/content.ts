@@ -23,6 +23,8 @@ type Project = {
   // Deployed site, shown as the main "see it live" link.
   live?: string;
   repo?: string;
+  // Screenshots in public/projects as <image>-dark.webp and <image>-light.webp, matching the site theme.
+  image?: string;
   featured?: boolean;
 };
 
@@ -31,6 +33,7 @@ export const PROJECTS: readonly Project[] = [
     key: 'lovelyMoments',
     name: 'Lovely Moments',
     live: 'https://dhgcufq39xb3m.cloudfront.net/',
+    image: '/projects/lovely-moments',
     stack: ['React 19', 'TypeScript', 'Vite', 'Firebase', 'AWS', 'i18n'],
     featured: true,
   },
@@ -50,6 +53,7 @@ export const PROJECTS: readonly Project[] = [
     key: 'blanke3d',
     name: 'Blanke Criações 3D',
     live: 'https://site-3d.blanke3d.workers.dev/',
+    image: '/projects/blanke-3d',
     stack: ['React', 'TypeScript', 'Vite', 'Cloudflare Workers', 'i18n'],
     featured: true,
   },
@@ -57,6 +61,7 @@ export const PROJECTS: readonly Project[] = [
     key: 'investimentos',
     name: 'Simulador de Investimentos',
     live: 'https://investimento.mundstock.dev.br/',
+    image: '/projects/investimentos',
     stack: ['React', 'Vite', 'Cloudflare'],
     featured: true,
   },
