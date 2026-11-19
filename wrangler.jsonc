@@ -5,6 +5,7 @@
   // Static site only: Cloudflare serves the Vite build straight from its edge, no Worker script needed.
   // Custom domains: Cloudflare creates the DNS records and HTTPS certificate on deploy.
   "routes": [
+    { "pattern": "iuri.mundstock.dev.br", "custom_domain": true },
     { "pattern": "mundstock.dev.br", "custom_domain": true },
     { "pattern": "www.mundstock.dev.br", "custom_domain": true }
   ],
